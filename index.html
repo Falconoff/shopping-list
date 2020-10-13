@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Список покупок</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div class="block">
+		<h1>Ваш список покупок</h1>
+		<div class="total">
+			Необходимые общие расходы: <span id="total"></span>  <!--общая сумма-->
+		</div>
+		<div id="table"></div> 			<!--список покупок в виде таблицы-->
+		<div id="form" class="frm">
+			<div class="content_form">
+				<div class="input_form">
+					<input type="text" id="product" placeholder="Название товара">
+					<input type="text" id="nmbr" placeholder="Количество товара">
+					<input type="text" id="price" placeholder="Цена за единицу">
+				</div>
+				<button onclick="addItem()" class="btn_form">Добавить товар в список</button>
+				<p id="err"></p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

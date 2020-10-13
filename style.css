@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #69f;
+}
+
+.block {
+	width: 800px;
+	margin: 30px auto;
+	padding: 40px;
+	border: 5px solid #bbb;
+	background-image: linear-gradient(30deg, #9df, white, #9bf);
+	font-family: 'Courier New', serif;
+	font-size: 1.5em;
+	color: blue;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.block h1 {
+	color: white;
+	text-shadow: 0px 0px 3px black, 0px 0px 15px blue;
+}
+
+.total {
+	margin: 20px;
+}
+
+.content_form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+input,
+.btn_form {
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 15px;
+	font-size: 16px;
+}
+
+.btn_form {
+	display: block;
+	font-size: 16px;
+	width: 450px;
+	background-color: #ccc;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btn_form:hover {
+	background-color: #ddd;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 2px solid #bbb;
+}
+
+td {
+	min-width: 80px;
+	min-height: 20px;
+	padding: 5px;
+	font-size: 18px;
+	color: blue;
+}
+
+.delete {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: red;
+	color: white;
+	position: relative;
+}
+
+.delete span {
+	display: block;
+	position: absolute;
+	top: -9px;
+	left: 2px;
+	cursor: pointer;
+	font-size: 42px;
+}
+
+td:first-child {
+	width: 350px;
+}
+
+td:last-child {
+	max-width: 50px;
+}
